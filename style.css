@@ -399,7 +399,8 @@ div h1{
         font-size: 20px;
     }
     .p3{
-        font-size: 18px;
+        font-size:15px;
+        font-weight: 900;
     }
     .footer-lst{
         display: block;
@@ -415,10 +416,10 @@ div h1{
 
     }
     .unlock{
-        font-size: 50px;
+        font-size: 35px;
     }
     .p1,.p2{
-        font-size: 17px;
+        font-size: 15px;
     }
     .efxlg{
         max-height: 7rem;
@@ -429,12 +430,29 @@ div h1{
         padding-top: 10px;
     }
     .tacklep{
-        font-size: 12;
+        font-size: 14px;
     }
     .heretohelp{
         font-size: 30px;
     }
-    
-    
+    .footer-head{
+        font-size: 17px;
+    }
+    .footer-p{
+        font-size: smaller;
+    }
+    .footer-lst .dropmsg{
+        font-size: 20px;
+    }
+    .keycource{
+        font-size: small;
+    }
+    .about1{
+        font-weight: 900;
+        font-size: 17px;
+    }
+    .toolscovered{
+        font-size: 17px;
+    }
 
 }
