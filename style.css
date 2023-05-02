@@ -6,7 +6,8 @@
 }
 .container{
     padding: 5%;
-    padding-top: 1%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 .flex{
     display: flex;
@@ -24,7 +25,6 @@ ul {
     display: flex;
     list-style: none;
     gap: 20px;
-
 }
 ul a{
     text-decoration: none;
@@ -32,12 +32,10 @@ ul a{
 }
 ul a:hover{
     color:#3271a8;
-    
 }
 nav{
     display:flex;
     align-items: center; 
-    
 }
 .skills{
     color:#3271a8;
@@ -46,6 +44,7 @@ nav{
     color: gray;
     font-family: 'Open Sans', sans-serif ;
     font-size: 130%;
+    margin-top: 1rem;
 }
 div h1{
     font-weight: bolder;
@@ -57,12 +56,12 @@ div h1{
     display: flex;
     justify-content: space-between;
     width: 450px;
-
 }
 #spotlight{
     display: flex;
     padding: 0 5%;
     padding-bottom: 100px;
+    align-items: center;
 }
 .keycource{
     font-family: 'Open Sans', sans-serif;
@@ -76,16 +75,18 @@ div h1{
     font-family: 'Open Sans', sans-serif;
     font-weight: 300px;
     text-align: center;
+    padding: 2rem;
+    padding-bottom: 2rem;
 }
 #courcehighlights{
     display: flex;
     justify-content: center;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 1px;
+    margin-bottom: 1rem;
 }
 .keycource2{
     height: fit-content;
-
 }
 .skillicon{
     display: flex;
@@ -96,7 +97,6 @@ div h1{
     display: flex;
     justify-content: center;
     padding: 0px 40px;
-    
 }
 .dollaricon{
     height: 50px;
@@ -105,8 +105,9 @@ div h1{
 .icons6{
     padding: 0px 20px;
     font-family: 'Open Sans', sans-serif;
-    height: 250px;
-    width: 372px;
+    max-height: 300px;
+    max-width: 372px;
+    margin-top: 20px;
 }
 .lasticon{
     display: flex;
@@ -118,11 +119,13 @@ div h1{
     color: #777;
 }
 .aboutprogram{
-    font-size: medium
+    font-size: medium;
+    padding:1.5rem;
+    margin-top: 2rem;
 }
 .about1{
     font-size: 30px;
-    font-weight: bold;
+    font-weight: 500px;
     font-family: 'Open Sans', sans-serif;
 }
 .list1{
@@ -133,9 +136,13 @@ div h1{
     text-align:left;
     font-family: 'Open Sans', sans-serif;
     list-style: none;
-    padding-right: 50px;
-    color:#71869d;;
-    
+    color:#474d53;
+}
+.list1 ul{
+    margin-right: 30px;
+}
+.tacklep{
+    padding-top: .5rem;
 }
 .list1 ul li{
     margin-bottom: 33px;
@@ -144,14 +151,12 @@ div h1{
     font-family: 'Open Sans', sans-serif;
 }
 .fa-circle-check{
-    color: #3271a8;
-    padding-right: 10px;
-    
-    
+    color: #2f52a3;
+    padding-right: 10px;   
 }
 .fa-wrench{
-    
     font-size: 40px;
+    padding-bottom: 1rem;
 }
 .division3{
     display: flex;
@@ -159,8 +164,8 @@ div h1{
     align-items: center;
 }
 .card{
-    height: 280px;
-    width: 350px;
+    max-height: 280px;
+    max-width: 250px;
     font-family:'Open Sans', sans-serif ;
     box-shadow: 0  0.2rem 1.8rem gray;
     padding: 18px;
@@ -168,29 +173,37 @@ div h1{
 .toolscovered{
     font-family: 'Open Sans', sans-serif;
     text-align: center;
-    padding-top: 100px;
+    padding-top: 50px;
+    margin-bottom: 5rem;
 }
 .logos1,.logos2{
     display: flex;
     justify-content: center;
-    height: 100px;
+    /* height: 100px; */
+    /* max-height: 100px;
+    max-width: 100px; */
     gap: 100px;
-    padding: 50px;
+    /* padding: 50px; */
+}
+.logos1{
+    padding-bottom: 2rem;
+}
+.logos1 img, .logos2 img{
+    height: 100px;
+    width: 100px;
 }
 .threepointer{
-    display: flex;
-    justify-content: center;
-}
-.messageicon{
-   
-    
+    /* display: flex; */
+    /* justify-content: center; */
+    padding-bottom: 5rem;
+    text-align: center;
 }
 .help{
     padding: 5%;
 }
 .footercntct{
-        display: flex;
-        justify-content: left;
+    display: flex;
+    justify-content: left;
 }
 .phn-no{
     padding-left: 30px;
@@ -233,14 +246,12 @@ div h1{
     background-color: white;
     padding: 2rem;
     border-radius: 8px;
-    max-width: 450px;
-    box-sizing: border-box;
-    
-    
+    max-width: 550px;
+    box-sizing: border-box;    
 }
-.checkbox{
+.checkbox-1{
     display: flex;
-
+    padding-bottom: 5px;
 }
 .checkbox input{
     height: 1rem;
@@ -249,14 +260,24 @@ div h1{
 }
 .name-1{
     display: flex;
-    justify-content:space-between;
-    
-
+    gap: 15px;
+    margin-top: 10px;
 }
 .form-lst h3 {
-    font-family:'Open Sans', sans-serif ;
-    font-weight: 900;
+    font-family:  'Open Sans', sans-serif ;
     margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+}
+.form-lst{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.back-soon{
+    font-size: 12px;
+    text-align: center;
+    color: #21325b;
+    font-weight: bold;
+    padding: .5rem;
 }
 .first-name{
     height: 30px;
@@ -265,10 +286,23 @@ div h1{
     width: 100%;
     height: 30px;
 }
+.email-names input,textarea{
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 0px;
+    padding: 1rem;
+}
+.name-1 input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 1rem;
+}
 .tell-us{
     width: 100%;
     min-height: 2rem;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    margin-top: 0px;
+
 }
 .bar-nav{
     display: none;
@@ -276,6 +310,33 @@ div h1{
 .privacy1{
     text-decoration: none  ;
 }
+.inquiry{
+    background-color: #3271a8;
+    color: white;
+    padding-left: 8rem;
+    padding-right:8rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border: 0;
+    border-radius:5px;
+    font-size: 1rem;
+}
+.inquiry-1{
+    text-align: center;
+    padding: 1rem;
+}
+.policy{
+    color: #504f4f;
+}
+.check-1{
+    padding-top: 4px;
+    margin-right: 5px;
+}
+.hgrid{
+    display: grid;
+    grid-template-columns: repeat( auto-fit, minmax(300px, 1fr) );
+}
+
 @media all and (max-width: 800px){
     .home-nav{
         display: none;
@@ -290,10 +351,79 @@ div h1{
 }
 @media screen and (max-width: 800px) {
     .footercntct{
-        display: block;
+        display: flex;
+        align-items: center;
     }
     .phn-no{
-        margin-top: 30px;
-        padding-left: 0px;
+        margin-top: 0px;
+        padding-left: 12px;
     }
+    .division3{
+        display: grid;
+        justify-content: center;
+        padding: 0px;
+        
+    }
+    .logos1 img,.logos2 img{
+        height: 100px;
+        width: 100px;
+        /* display: grid; */
+        /* gap: 0px; */
+    }
+    .logos1,.logos2{
+        gap:50px;
+        display: grid;
+        grid-template-columns: repeat(2,100px);
+        text-align: center;
+        margin-top: 5rem;
+    }
+    
+    .list1{
+        display: grid;
+        justify-content: center;
+    }
+    .challenges{
+        margin-top: 2rem;
+    }
+    .about1{
+        font-size: 20px;
+    }
+    .list1 ul{
+        margin: 0;
+    }
+    .aboutprogram{
+        font-size: 15px;
+
+    }
+    .toolscovered{
+        font-size: 20px;
+    }
+    .p3{
+        font-size: 18px;
+    }
+    .footer-lst{
+        display: block;
+    }
+    .inquiry{
+        padding: 1rem;
+    }
+    .threepointer img{
+        max-width: 80vw;
+    }
+    .policy{
+        font-size:small ;
+
+    }
+    .unlock{
+        font-size: 50px;
+    }
+    .p1,.p2{
+        font-size: 17px;
+    }
+    .efxlg{
+        max-height: 7rem;
+        max-width: 7rem;
+    }
+    
+
 }
