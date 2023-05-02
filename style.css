@@ -424,6 +424,17 @@ div h1{
         max-height: 7rem;
         max-width: 7rem;
     }
+    .icon-6h{
+        font-size: 17px;
+        padding-top: 10px;
+    }
+    .tacklep{
+        font-size: 12;
+    }
+    .heretohelp{
+        font-size: 30px;
+    }
+    
     
 
 }
